@@ -1,0 +1,28 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "Full stack newsletter project using nodeJS and Express framework which connects to mailchimp api ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoppyCurtis/Newsletter-Signup-Project.git"
+  },
+  "keywords": [
+    "API",
+    "Deployment",
+    "Heroku"
+  ],
+  "author": "Poppy Curtis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoppyCurtis/Newsletter-Signup-Project/issues"
+  },
+  "homepage": "https://github.com/PoppyCurtis/Newsletter-Signup-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
