@@ -1,17 +1,18 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const request = require("request");
 const app = express();
 
 app.use(bodyParser.urlencoded({extended:true}));
-
+app.use(express.static("public"));
 
 app.get("/", function(req, res) {
     res.sendFile(__dirname + "/signup.html");
 });
-app.get("/", function(req, res) {
+app.get("/signup.html", function(req, res) {
     res.sendFile(__dirname + "/success.html");
 });
-app.get("/", function(req, res) {
+app.get("/signup.html", function(req, res) {
     res.sendFile(__dirname + "/failure.html");
 });
 
